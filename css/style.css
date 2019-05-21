@@ -32,7 +32,10 @@ body {
     height: 35px;
 }
 
-.heading-primary {}
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+}
 
 .heading-primary-main {}
 
