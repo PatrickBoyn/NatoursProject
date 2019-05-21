@@ -68,6 +68,11 @@ body {
     text-decoration: none;
 }
 
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
