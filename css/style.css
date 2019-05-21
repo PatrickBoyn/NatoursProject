@@ -63,7 +63,10 @@ body {
 }
 
 .btn:link,
-.btn:visited {}
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 @keyframes moveInLeft {
     0% {
