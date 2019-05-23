@@ -150,3 +150,5 @@ body {
     width: calc(((100% - 2 * 6rem) / 3) * 2 + 6rem); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(((100% - 3 * 6rem) / 4) * 2 + 6rem); }
