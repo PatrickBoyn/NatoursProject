@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PatrickBoyn/CSSAdvanced/issues"
   },
-  "homepage": "https://github.com/PatrickBoyn/CSSAdvanced#readme"
+  "homepage": "https://github.com/PatrickBoyn/CSSAdvanced#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
