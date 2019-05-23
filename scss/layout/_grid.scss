@@ -18,4 +18,8 @@
             margin-right: $horizontal-gutter;
         }
     }
+
+    .col-1-of-3 {
+        width: calc((100% - 2 * #{$horizontal-gutter}) / 3);
+    }
 }
