@@ -1,15 +1,19 @@
 .row {
     max-width: $grid-width;
-    background-color: #BA0000;
+    background-color: red;
     margin: 0 auto;
 
     &:not(:last-child) {
-        margin-bottom: $vertical-gutter;
+        margin: $vertical-gutter;
     }
 
     .col-1-of-2 {
-        // Remember to use string interpolation
-        width: calc((100% #{$horizontal-gutter}) / 2);
-        background-color: pink;
+        width: calc((100% - #{$horizontal-gutter}) / 2);
+        background-color: yellow;
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $horizontal-gutter;
+        }
     }
 }
