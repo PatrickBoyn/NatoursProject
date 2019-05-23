@@ -1,6 +1,6 @@
 .row {
-    max-width: 114rem;
+    max-width: $grid-width;
     background-color: #AA0000;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: $vertical-gutter;
 }
