@@ -1,6 +1,9 @@
 .row {
     max-width: $grid-width;
-    background-color: #AA0000;
+    background-color: #BA0000;
     margin: 0 auto;
-    margin-bottom: $vertical-gutter;
+
+    &:not(:last-child) {
+        margin-bottom: $vertical-gutter;
+    }
 }
