@@ -87,49 +87,49 @@ body {
     transition: all .2s;
     position: relative;
     font-size: 1.6rem;
-}
 
-.btn:hover {
-    transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem $dark-color-opacity;
-}
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem $dark-color-opacity;
+    }
 
-.btn:hover::after {
-    transform: scale(1.5);
-    opacity: 0;
-}
+    &:hover::after {
+        transform: scale(1.5);
+        opacity: 0;
+    }
 
-.btn:active {
-    transform: translateY(-.1rem);
-    box-shadow: 0 2rem 1rem $dark-color-opacity;
-}
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0 2rem 1rem $dark-color-opacity;
+    }
 
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    z-index: -1;
-    transition: all .4s;
-}
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        z-index: -1;
+        transition: all .4s;
+    }
 
-.btn--white {
-    background-color: $light-color;
-    color: $grey-color-dark;
-}
+    &--white {
+        background-color: $light-color;
+        color: $grey-color-dark;
+    }
 
-.btn--white::after {
-    background-color: $light-color;
-    color: $grey-color-dark;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+    &--white::after {
+        background-color: $light-color;
+        color: $grey-color-dark;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
-.btn--animation {
-    animation: moveInButton .5s ease-out .75s;
-    animation-fill-mode: backwards;
+    &--animation {
+        animation: moveInButton .5s ease-out .75s;
+        animation-fill-mode: backwards;
+    }
 }
 
 @keyframes moveInLeft {
