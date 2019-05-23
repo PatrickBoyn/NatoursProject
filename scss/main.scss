@@ -77,33 +77,36 @@ body {
     }
 }
 
-.btn:link,
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: 1.6rem;
+.btn {
 
-    &:hover {
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+    }
+
+    .btn:hover {
         transform: translateY(-.3rem);
         box-shadow: 0 1rem 2rem $dark-color-opacity;
     }
 
-    &:hover::after {
+    .btn:hover::after {
         transform: scale(1.5);
         opacity: 0;
     }
 
-    &:active {
+    .btn:active {
         transform: translateY(-.1rem);
         box-shadow: 0 2rem 1rem $dark-color-opacity;
     }
 
-    &::after {
+    .btn::after {
         content: "";
         display: inline-block;
         height: 100%;
@@ -113,12 +116,12 @@ body {
         transition: all .4s;
     }
 
-    &--white {
+    .btn--white {
         background-color: $light-color;
         color: $grey-color-dark;
     }
 
-    &--white::after {
+    .btn--white::after {
         background-color: $light-color;
         color: $grey-color-dark;
         position: absolute;
@@ -126,7 +129,7 @@ body {
         left: 0;
     }
 
-    &--animation {
+    .btn--animation {
         animation: moveInButton .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
