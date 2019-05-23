@@ -9,6 +9,7 @@
 
     .col-1-of-2 {
         // Remember to use string interpolation
-        width: calc(100% #{$horizontal-gutter} / 2);
+        width: calc((100% #{$horizontal-gutter}) / 2);
+        background-color: pink;
     }
 }
