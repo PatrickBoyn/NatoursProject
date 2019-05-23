@@ -94,11 +94,11 @@ body {
     &:hover {
         transform: translateY(-.3rem);
         box-shadow: 0 1rem 2rem $dark-color-opacity;
-    }
 
-    &:hover::after {
-        transform: scale(1.5);
-        opacity: 0;
+        &::after {
+            transform: scale(1.5);
+            opacity: 0;
+        }
     }
 
     &:active {
