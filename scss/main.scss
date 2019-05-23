@@ -79,8 +79,8 @@ body {
 
 .btn {
 
-    .btn:link,
-    .btn:visited {
+    &:link,
+    &:visited {
         text-transform: uppercase;
         text-decoration: none;
         padding: 1.5rem 4rem;
@@ -91,22 +91,22 @@ body {
         font-size: 1.6rem;
     }
 
-    .btn:hover {
+    &:hover {
         transform: translateY(-.3rem);
         box-shadow: 0 1rem 2rem $dark-color-opacity;
     }
 
-    .btn:hover::after {
+    &:hover::after {
         transform: scale(1.5);
         opacity: 0;
     }
 
-    .btn:active {
+    &:active {
         transform: translateY(-.1rem);
         box-shadow: 0 2rem 1rem $dark-color-opacity;
     }
 
-    .btn::after {
+    &::after {
         content: "";
         display: inline-block;
         height: 100%;
@@ -116,17 +116,17 @@ body {
         transition: all .4s;
     }
 
-    .btn--white {
+    &--white {
         background-color: $light-color;
         color: $grey-color-dark;
-    }
 
-    .btn--white::after {
-        background-color: $light-color;
-        color: $grey-color-dark;
-        position: absolute;
-        top: 0;
-        left: 0;
+        &::after {
+            background-color: $light-color;
+            color: $grey-color-dark;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     }
 
     .btn--animation {
