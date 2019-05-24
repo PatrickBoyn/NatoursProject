@@ -2,5 +2,8 @@
     max-width: $max-width;
     background-color: red;
     margin: 0 auto;
-    margin-bottom: $vertical-gutter;
+
+    &:not(:last-child) {
+        margin-bottom: $vertical-gutter;
+    }
 }
