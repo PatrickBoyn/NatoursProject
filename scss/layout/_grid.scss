@@ -1,9 +1,22 @@
 .row {
-    max-width: $max-width;
+    max-width: $grid-width;
     background-color: red;
+    color: #fff;
     margin: 0 auto;
 
     &:not(:last-child) {
         margin-bottom: $vertical-gutter;
+    }
+
+    .col-1-of-2 {
+        width: calc((100% -#{$vertical-gutter}) /2);
+        background-color: yellow;
+        color: #000;
+        float: left;
+
+        &:not(:last-child) {
+
+            margin-right: $horizontal-gutter;
+        }
     }
 }
