@@ -8,6 +8,8 @@
         margin-bottom: $vertical-gutter;
     }
 
+    @include clearfix;
+
     .col-1-of-2{
         width: calc((100% - #{$horizontal-gutter}) \ 2);
         background-color: yellow;
