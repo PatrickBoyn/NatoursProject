@@ -29,6 +29,8 @@
     background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
     -webkit-background-clip: text;
     color: transparent;
+    letter-spacing: 2px;
+    transition: all .2s;
 
     &:hover{
         transform: skewY(2deg)
