@@ -7,7 +7,7 @@
     &:not(:last-child) {    
         margin-bottom: $vertical-gutter;
     }
-
+}
     @include clearfix;
 
     [class^='col-']{
@@ -21,9 +21,8 @@
     }
 
     .col-1-of-2{
-        width: calc((100% - #{$horizontal-gutter}) \ 2);
+        width: calc((100% - #{$horizontal-gutter}) / 2);
     }
     .col-1-of-3{
-        width: calc((100% - 2 * #{$horizontal-gutter}) \ 3);
+        width: calc((100% - 2 * #{$horizontal-gutter}) / 3);
     }
-}
