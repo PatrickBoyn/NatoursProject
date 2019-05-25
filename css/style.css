@@ -146,7 +146,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: red;
   color: #fff;
   margin: 0 auto; }
   .row:not(:last-child) {
@@ -156,7 +155,6 @@ body {
     display: table;
     clear: both; }
   .row [class^='col-'] {
-    background-color: yellow;
     color: black;
     float: left; }
     .row [class^='col-']:not(:last-child) {
