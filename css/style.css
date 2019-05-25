@@ -63,6 +63,11 @@ body {
     letter-spacing: 1.74rem;
     animation: moveInRight 1s ease-out; }
 
+.secondary-heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
