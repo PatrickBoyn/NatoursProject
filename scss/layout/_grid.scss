@@ -13,7 +13,7 @@
         background-color: yellow;
         color: #000;
         float: left;
-
+        
         &:not(:last-child) {
 
             margin-right: $horizontal-gutter;
