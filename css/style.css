@@ -71,6 +71,8 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent; }
+  .secondary-heading:hover {
+    transform: skewY(2deg); }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
