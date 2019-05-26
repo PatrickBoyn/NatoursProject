@@ -107,7 +107,8 @@ body {
   border-radius: 10rem;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  transition: all .2s; }
 
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -153,7 +154,8 @@ body {
 .btn-text:hover {
   background-color: #55c57a;
   color: #fff;
-  box-shadow: 0 1rem 2rem blur; }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px); }
 
 .header {
   height: 95vh;
