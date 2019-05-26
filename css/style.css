@@ -166,8 +166,11 @@ body {
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
+    border-radius: 8px;
     position: absolute; }
+    .composition__photo__p1 {
+      left: 0;
+      top: -2rem; }
 
 .header {
   height: 95vh;
