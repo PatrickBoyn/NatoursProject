@@ -67,7 +67,9 @@
     }
 
     &:hover{
-
+        background-color: $primary-color;
+        color: $light-color;
+        box-shadow: 0 1rem 2rem rgba($color: $dark-color, $alpha: .15);
     }
 
     &:active{
