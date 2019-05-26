@@ -20,5 +20,10 @@
         top: 10rem;
     }
 
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 2.5rem 4rem rgba($dark-color, .5);
+    }
+
 }
 }
