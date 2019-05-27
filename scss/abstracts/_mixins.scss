@@ -6,10 +6,10 @@
     }
 }
 
-@mixin gradient-image($image) {
+@mixin gradient-image($path) {
     background-image: linear-gradient(to right bottom,
             rgba($primary-color-light, 0.8),
             rgba($primary-color-dark, 0.8)),
-        url(../img/$image);
+        url($path);
     background-size: cover;
 }
