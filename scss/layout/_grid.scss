@@ -5,6 +5,6 @@
     margin: 0 auto;
 
     &:not(:last-child) {
-        margin: $vertical-gutter;
+        margin-bottom: $vertical-gutter;
     }
 }
