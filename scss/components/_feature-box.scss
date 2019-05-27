@@ -6,7 +6,10 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: 1.5);
 
-    &__icon {}
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: 0.5rem;
+    }
 
     &__text {}
 }
