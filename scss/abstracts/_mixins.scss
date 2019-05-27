@@ -5,3 +5,11 @@
         clear: both;
     }
 }
+
+@mixin gradient-image($image) {
+    background-image: linear-gradient(to right bottom,
+            rgba($primary-color-light, 0.8),
+            rgba($primary-color-dark, 0.8)),
+        url(../img/$image);
+    background-size: cover;
+}
