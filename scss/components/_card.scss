@@ -2,6 +2,9 @@
     background-color: red;
     height: 50rem;
     color: white;
+    transition: all .8s;
 
-    &:hover {}
+    &:hover {
+        transform: rotateY(180deg);
+    }
 }

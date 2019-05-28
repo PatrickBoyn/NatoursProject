@@ -164,7 +164,10 @@ body {
 .card {
   background-color: red;
   height: 50rem;
-  color: white; }
+  color: white;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateY(180deg); }
 
 .composition {
   position: relative; }
