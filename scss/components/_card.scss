@@ -5,9 +5,8 @@
     height: 50rem;
 
     &__side {
-        background-color: red;
+        background-color: $light-color;
         font-size: 8rem;
-        color: white;
 
         height: 50rem;
         transition: all .8s ease;
@@ -18,11 +17,10 @@
         backface-visibility: hidden;
 
         &--front {
-            background-color: red;
+            background-color: $light-color;
         }
 
         &--back {
-            background-color: green;
             transform: rotateY(180deg);
         }
     }

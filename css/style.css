@@ -167,9 +167,8 @@ body {
   position: relative;
   height: 50rem; }
   .card__side {
-    background-color: red;
+    background-color: #fff;
     font-size: 8rem;
-    color: white;
     height: 50rem;
     transition: all .8s ease;
     position: absolute;
@@ -178,9 +177,8 @@ body {
     width: 100%;
     backface-visibility: hidden; }
     .card__side--front {
-      background-color: red; }
+      background-color: #fff; }
     .card__side--back {
-      background-color: green;
       transform: rotateY(180deg); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
