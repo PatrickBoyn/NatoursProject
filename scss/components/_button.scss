@@ -40,7 +40,7 @@
 
     &--white {
         background-color: $light-color;
-        color: $grey-color-dark;
+        color: $dark-color-2;
 
         &::after {
             background-color: $light-color;
@@ -57,9 +57,10 @@
     }
 }
 
-.btn-text{
+.btn-text {
+
     &:link,
-    &:visited{
+    &:visited {
         color: $primary-color;
         display: inline-block;
         text-decoration: none;
@@ -67,14 +68,14 @@
         padding: 3px;
     }
 
-    &:hover{
+    &:hover {
         background-color: $primary-color;
         color: $light-color;
         box-shadow: 0 1rem 2rem rgba($color: $dark-color, $alpha: .15);
         transform: translateY(-1px);
     }
 
-    &:active{
+    &:active {
         box-shadow: 0 .5rem 1rem rgba($color: $dark-color, $alpha: .15);
         transform: translateY(0);
     }
