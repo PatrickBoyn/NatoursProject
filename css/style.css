@@ -163,12 +163,14 @@ body {
 
 .card {
   perspective: 150rem;
-  -moz-perspective: 150rem;
-  background-color: red;
-  height: 50rem;
-  color: white;
-  transition: all .8s; }
-  .card:hover {
+  -moz-perspective: 150rem; }
+  .card__side {
+    background-color: red;
+    height: 50rem;
+    font-size: 8rem;
+    color: white;
+    transition: all .8s; }
+  .card:hover .card__side {
     transform: rotateY(180deg); }
 
 .composition {
