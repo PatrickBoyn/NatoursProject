@@ -164,7 +164,8 @@ body {
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
-  position: relative; }
+  position: relative;
+  height: 50rem; }
   .card__side {
     background-color: red;
     font-size: 8rem;
