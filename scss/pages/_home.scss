@@ -7,4 +7,6 @@
 .section-features {
     padding: 20rem 0;
     @include gradient-image('../img/nat-4.jpg');
+
+    transform: skewY(-7deg);
 }
