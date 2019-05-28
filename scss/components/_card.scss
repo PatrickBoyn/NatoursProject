@@ -15,6 +15,8 @@
         left: 0;
         width: 100%;
         backface-visibility: hidden;
+        border-radius: 10px;
+        box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: .15);
 
         &--front {
             background-color: $light-color;
@@ -30,7 +32,7 @@
     }
 
     &:hover &__side--front {
-        transform: rotateY(180deg);
+        transform: rotateY(-180deg);
     }
 
     &:hover &__side--back {
