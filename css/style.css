@@ -170,7 +170,9 @@ body {
     font-size: 8rem;
     color: white;
     transition: all .8s; }
-  .card:hover .card__side {
+    .card__side--back {
+      background-color: green; }
+  .card:hover .card__side--front {
     transform: rotateY(180deg); }
 
 .composition {
