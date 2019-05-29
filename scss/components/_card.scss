@@ -113,5 +113,15 @@
         transform: translate(-50%, -50%);
     }
 
+    &__price-box {}
 
+    &__only-price {
+        font-size: 1.74rem;
+        text-transform: uppercase;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
+    }
 }

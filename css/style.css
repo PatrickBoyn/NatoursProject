@@ -232,6 +232,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .card__only-price {
+    font-size: 1.74rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
 
 .composition {
   position: relative; }
