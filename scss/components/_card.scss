@@ -77,6 +77,7 @@
         width: 75%;
     }
 
+
     &__span-heading {
         padding: 1rem 1.5rem;
         -webkit-box-decoration-break: clone;
@@ -86,6 +87,10 @@
             background-image: linear-gradient(to right bottom,
                     rgba($secondary-color-light, .85),
                     rgba($secondary-color-dark, .85));
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom, rgba($primary-color-light, .85), rgba($primary-color-dark, .85));
         }
     }
 
