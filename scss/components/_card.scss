@@ -53,7 +53,7 @@
         }
 
         &--2 {
-            background-image: url('../img/nat-6.jpg');
+            background-image: linear-gradient(to right bottom, $primary-color-light, $primary-color-dark), url('../img/nat-6.jpg');
         }
 
         &--3 {
