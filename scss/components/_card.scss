@@ -113,7 +113,11 @@
         transform: translate(-50%, -50%);
     }
 
-    &__price-box {}
+    &__price-box {
+        text-align: center;
+        color: $light-color;
+        margin-bottom: 8rem;
+    }
 
     &__only-price {
         font-size: 1.74rem;
