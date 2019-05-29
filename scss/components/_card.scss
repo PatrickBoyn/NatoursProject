@@ -31,6 +31,10 @@
             &-2 {
                 background-image: linear-gradient(to right bottom, $primary-color-light, $primary-color-dark);
             }
+
+            &-3 {
+                background-image: linear-gradient(to right bottom, $third-color-light, $third-color-dark);
+            }
         }
     }
 
