@@ -90,7 +90,15 @@
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, rgba($primary-color-light, .85), rgba($primary-color-dark, .85));
+            background-image: linear-gradient(to right bottom,
+                    rgba($primary-color-light, .85),
+                    rgba($primary-color-dark, .85));
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right bottom,
+                    rgba($third-color-light, .85),
+                    rgba($third-color-dark, .85));
         }
     }
 
