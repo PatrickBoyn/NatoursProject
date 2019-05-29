@@ -2,6 +2,7 @@
     height: 95vh;
     @include gradient-image('../img/hero.jpg');
     background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 
