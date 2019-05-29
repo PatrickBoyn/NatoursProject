@@ -61,7 +61,7 @@
         }
 
         &--3 {
-            background-image: url('../img/nat-7.jpg');
+            background-image: linear-gradient(to right bottom, $third-color-light, $third-color-dark), url('../img/nat-7.jpg');
         }
     }
 
