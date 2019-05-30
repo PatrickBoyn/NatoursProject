@@ -7,4 +7,10 @@
     padding: 6rem;
     color: $dark-color;
     font-size: $default-font-size;
+
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        float: left;
+    }
 }
