@@ -99,6 +99,9 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-top-big {
+  margin-top: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -135,6 +138,16 @@ body {
   color: #242424; }
   .btn--white::after {
     background-color: #fff;
+    color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.btn--green {
+  background-color: #55c57a;
+  color: #242424; }
+  .btn--green::after {
+    background-color: #55c57a;
     color: #eee;
     position: absolute;
     top: 0;

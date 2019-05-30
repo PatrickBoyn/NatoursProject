@@ -51,6 +51,19 @@
         }
     }
 
+    &--green {
+        background-color: $primary-color;
+        color: $dark-color-2;
+
+        &::after {
+            background-color: $primary-color;
+            color: $grey-color-dark;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
     .btn--animation {
         animation: moveInButton .5s ease-out .75s;
         animation-fill-mode: backwards;
