@@ -212,9 +212,8 @@ body {
     position: absolute;
     top: 12rem;
     right: 2rem;
-    width: 75%; }
+    width: 65%; }
   .card__span-heading {
-    padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__span-heading--1 {
