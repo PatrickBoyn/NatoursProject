@@ -182,7 +182,9 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  z-index: -1;
+  opacity: .15; }
 
 .card {
   perspective: 150rem;
@@ -450,5 +452,4 @@ body {
 
 .story-section {
   position: relative;
-  padding: 15rem 0;
-  background-color: #eee; }
+  padding: 15rem 0; }
