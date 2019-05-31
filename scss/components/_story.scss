@@ -23,6 +23,7 @@
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
+        position: relative;
     }
 
     &__image {
@@ -31,5 +32,9 @@
 
     &__text {
         transform: skewX(12deg);
+    }
+
+    &__caption {
+        position: absolute;
     }
 }
