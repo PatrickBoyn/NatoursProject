@@ -341,7 +341,8 @@ body {
   .story__image {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -360,7 +361,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
-    transform: translateX(-4rem) scale(0); }
+    transform: translateX(-4rem) scale(1); }
 
 .header {
   height: 95vh;
