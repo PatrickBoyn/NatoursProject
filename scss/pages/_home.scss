@@ -43,4 +43,10 @@
     height: 50rem;
     border-radius: 10px;
     box-shadow: 0 1.5rem 4rem rgba($dark-color, .2);
+
+    &__form {
+        width: 50%;
+        padding: 6rem;
+        background-color: purple;
+    }
 }
