@@ -35,7 +35,9 @@
 }
 
 .book {
-    background-image: linear-gradient(90deg, rgba($light-color, .9), red), url('../img/nat-10.jpg');
+    background-image:
+        linear-gradient(105deg, rgba($light-color, .9) 0%, rgba($light-color, .9) 50%, transparent 50%),
+        url('../img/nat-10.jpg');
     background-size: cover;
     // For testing purposes
     height: 50rem;
