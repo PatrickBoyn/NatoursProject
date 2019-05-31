@@ -4,6 +4,8 @@
     &__input {
         font-size: 1.5rem;
         padding: 1.5rem 2rem;
+        border-radius: 5px;
+        background-color: rgba($light-color, .5);
     }
 
     &__label {}

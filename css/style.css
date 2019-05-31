@@ -331,7 +331,9 @@ body {
 
 .form__input {
   font-size: 1.5rem;
-  padding: 1.5rem 2rem; }
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .story {
   width: 75%;
