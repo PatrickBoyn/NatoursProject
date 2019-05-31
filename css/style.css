@@ -177,6 +177,13 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -442,5 +449,6 @@ body {
   margin-top: -11.5rem; }
 
 .story-section {
+  position: relative;
   padding: 15rem 0;
   background-color: #eee; }
