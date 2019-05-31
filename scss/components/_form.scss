@@ -12,5 +12,11 @@
         border: none;
     }
 
+    &__input:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color: $dark-color, $alpha: .1);
+        border-bottom: 3px solid $primary-color;
+    }
+
     &__label {}
 }
