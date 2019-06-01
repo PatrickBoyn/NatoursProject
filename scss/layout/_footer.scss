@@ -32,8 +32,9 @@
         &:link,
         &:visited {
             color: $light-grey-color-1;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
         }
-
-        text-decoration: none;
     }
 }
