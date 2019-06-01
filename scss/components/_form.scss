@@ -68,7 +68,7 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: 0rem;
+        top: -.4rem;
 
         // The inner circle for the custom radio button
         &::after {
@@ -82,6 +82,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             background-color: $primary-color;
+            opacity: 0;
         }
     }
 }
