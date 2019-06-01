@@ -17,7 +17,10 @@
         list-style: none;
     }
 
-    &__navigation {}
+    &__navigation {
+        border-top: 1px solid $grey-color-dark;
+        padding-top: 2rem;
+    }
 
     &__item {
         display: inline-block;

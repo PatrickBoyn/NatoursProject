@@ -488,6 +488,9 @@ body {
     height: auto; }
   .footer__list {
     list-style: none; }
+  .footer__navigation {
+    border-top: 1px solid #eee;
+    padding-top: 2rem; }
   .footer__item {
     display: inline-block; }
     .footer__item:not(:last-child) {
