@@ -365,6 +365,10 @@ body {
   visibility: hidden;
   transform: translateY(-4rem); }
 
+.form__radio-group {
+  width: 50%;
+  display: inline-block; }
+
 .story {
   width: 75%;
   margin: 0 auto;
