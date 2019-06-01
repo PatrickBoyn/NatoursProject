@@ -57,6 +57,7 @@
         color: $dark-color;
         cursor: pointer;
         position: relative;
+        padding-left: 5rem;
     }
 
     &__radio-button {
@@ -67,7 +68,7 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: 0;
+        top: -.1rem;
 
         &::after {}
     }
