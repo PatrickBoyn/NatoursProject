@@ -476,6 +476,9 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+p {
+  color: #eee; }
+
 .footer {
   background-color: #242424;
   padding: 18rem 0;
