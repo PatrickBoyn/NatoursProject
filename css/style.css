@@ -476,6 +476,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  background-color: #242424;
+  padding: 18rem 0;
+  font-size: 1.4rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
