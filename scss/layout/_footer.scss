@@ -32,9 +32,11 @@
         &:link,
         &:visited {
             color: $light-grey-color-1;
+            background-color: $dark-color-2;
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
+            transition: all .2s;
         }
 
         &:hover,
