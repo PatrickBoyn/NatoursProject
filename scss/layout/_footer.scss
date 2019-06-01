@@ -2,6 +2,7 @@
     background-color: $dark-color-2;
     padding: 18rem 0;
     font-size: 1.4rem;
+    color: $light-grey-color-1;
 
     &__logo-box {
         text-align: center;
@@ -20,6 +21,7 @@
     &__navigation {
         border-top: 1px solid $grey-color-dark;
         padding-top: 2rem;
+        display: inline-block;
     }
 
     &__item {
@@ -48,5 +50,12 @@
             box-shadow: 0 1rem 2rem rgba($dark-color, .4);
             transform: rotate(5deg) scale(1.3);
         }
+    }
+
+    &__copyright {
+        border-top: 1px solid $grey-color-dark;
+        padding-top: 2rem;
+        width: 80%;
+        float: right;
     }
 }
