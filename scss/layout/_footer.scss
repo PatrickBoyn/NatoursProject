@@ -13,9 +13,27 @@
         height: auto;
     }
 
+    &__list {
+        list-style: none;
+    }
+
     &__navigation {}
 
-    &__item {}
+    &__item {
+        display: inline-block;
 
-    &__link {}
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            color: $light-grey-color-1;
+        }
+
+        text-decoration: none;
+    }
 }

@@ -486,6 +486,16 @@ body {
   .footer__logo {
     width: 15rem;
     height: auto; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link {
+    text-decoration: none; }
+    .footer__link:link, .footer__link:visited {
+      color: #f7f7f7; }
 
 .row {
   max-width: 114rem;
