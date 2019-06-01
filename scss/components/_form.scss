@@ -6,7 +6,7 @@
     &__input {
         font-size: 1.5rem;
         font-family: inherit;
-        color: inherit;
+        color: $grey-color-dark-2;
         padding: 1.5rem 2rem;
         border-radius: 5px;
         background-color: rgba($light-color, .5);
@@ -34,6 +34,7 @@
     &__label {
         font-size: 1.2rem;
         font-weight: 700;
+        color: $dark-color;
         margin-left: 2rem;
         margin-top: 0.7rem;
         display: block;
@@ -47,7 +48,13 @@
     }
 
     &__radio-group {
-        width: 50%;
+        width: 49%;
+    }
+
+    &__radio-label {
         display: inline-block;
+        font-size: $default-font-size;
+        color: $dark-color;
+        cursor: pointer;
     }
 }

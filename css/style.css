@@ -335,7 +335,7 @@ body {
 .form__input {
   font-size: 1.5rem;
   font-family: inherit;
-  color: inherit;
+  color: #999;
   padding: 1.5rem 2rem;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -355,6 +355,7 @@ body {
 .form__label {
   font-size: 1.2rem;
   font-weight: 700;
+  color: #000;
   margin-left: 2rem;
   margin-top: 0.7rem;
   display: block;
@@ -366,8 +367,13 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 50%;
-  display: inline-block; }
+  width: 49%; }
+
+.form__radio-label {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #000;
+  cursor: pointer; }
 
 .story {
   width: 75%;
@@ -441,8 +447,6 @@ body {
 
 .row {
   max-width: 114rem;
-  color: white;
-  color: #fff;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
