@@ -477,13 +477,12 @@ body {
     text-align: center; }
 
 p {
-  color: #eee; }
+  color: #f7f7f7; }
 
 .footer {
   background-color: #242424;
   padding: 18rem 0;
-  font-size: 1.4rem;
-  color: #f7f7f7; }
+  font-size: 1.4rem; }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
