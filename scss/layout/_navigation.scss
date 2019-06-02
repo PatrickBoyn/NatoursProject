@@ -45,7 +45,9 @@
         text-align: center;
     }
 
-    &__item {}
+    &__item {
+        margin: 1rem;
+    }
 
     &__link {
         font-size: 3rem;
