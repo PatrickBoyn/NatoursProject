@@ -11,6 +11,7 @@
         top: 6.5rem;
         right: 6.5em;
         background-image: radial-gradient($primary-color-light, $primary-color-dark);
+        z-index: 1000;
     }
 
     &__nav {}
