@@ -520,7 +520,9 @@ body {
   width: 7rem;
   position: fixed;
   top: 6rem;
-  right: 6rem; }
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 10001; }
 
 .navigation__background {
   height: 6rem;
