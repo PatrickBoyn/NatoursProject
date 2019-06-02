@@ -34,7 +34,12 @@
         z-index: 1500;
     }
 
-    &__list {}
+    &__list {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     &__item {}
 
