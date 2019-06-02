@@ -539,7 +539,10 @@ body {
 
 .navigation__nav {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0; }
 
 .row {
   max-width: 114rem;
