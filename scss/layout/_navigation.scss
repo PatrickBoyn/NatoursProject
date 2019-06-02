@@ -47,5 +47,11 @@
 
     &__item {}
 
-    &__link {}
+    &__link {
+        font-size: 3rem;
+        font-weight: 300;
+        color: $light-color;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 }

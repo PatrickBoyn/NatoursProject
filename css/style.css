@@ -554,6 +554,13 @@ body {
   list-style: none;
   text-align: center; }
 
+.navigation__link {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
