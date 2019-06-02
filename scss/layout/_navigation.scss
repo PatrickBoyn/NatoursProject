@@ -23,6 +23,8 @@
         right: 6.5em;
         background-image: radial-gradient($primary-color-light, $primary-color-dark);
         z-index: 1000;
+        // For testing purposes
+        transform: scale(50);
     }
 
     &__nav {
