@@ -55,5 +55,6 @@
         color: $light-color;
         text-decoration: none;
         text-transform: uppercase;
+        background-image: linear-gradient(120deg, red 0%, red 50%, $light-color 50%);
     }
 }
