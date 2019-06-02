@@ -564,7 +564,11 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, red 0%, red 50%, #fff 50%);
-  background-size: 100%; }
+  background-size: 210%;
+  transition: all .4s; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%; }
 
 .row {
   max-width: 114rem;
