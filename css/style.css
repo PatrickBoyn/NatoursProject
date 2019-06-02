@@ -569,7 +569,8 @@ body {
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #55c57a; }
+  color: #55c57a;
+  transform: translateX(1rem); }
 
 .row {
   max-width: 114rem;
