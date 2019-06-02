@@ -568,7 +568,8 @@ body {
   transition: all .4s; }
 
 .navigation__link:hover, .navigation__link:active {
-  background-position: 100%; }
+  background-position: 100%;
+  color: #55c57a; }
 
 .row {
   max-width: 114rem;
