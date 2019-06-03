@@ -12,6 +12,7 @@
         right: 6rem;
         border-radius: 50%;
         z-index: 10001;
+        box-shadow: 0 1rem 3rem rgba($dark-color, .1);
     }
 
     &__background {
@@ -24,7 +25,7 @@
         background-image: radial-gradient($primary-color-light, $primary-color-dark);
         z-index: 1000;
         // For testing purposes
-        transform: scale(80);
+        // transform: scale(80);
     }
 
     &__nav {
@@ -34,6 +35,8 @@
         top: 0;
         right: 0;
         z-index: 1500;
+        opacity: 0;
+        width: 0;
     }
 
     &__list {
