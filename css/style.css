@@ -578,6 +578,9 @@ body {
   color: #55c57a;
   transform: translateX(1rem); }
 
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
