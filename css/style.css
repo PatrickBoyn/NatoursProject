@@ -617,9 +617,11 @@ body {
   background-color: transparent; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
   transform: rotate(45deg); }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
   transform: rotate(-45deg); }
 
 .row {
