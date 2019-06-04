@@ -581,6 +581,10 @@ body {
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
 
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
