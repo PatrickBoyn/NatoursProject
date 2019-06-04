@@ -26,6 +26,7 @@
         z-index: 1000;
         // For testing purposes
         // transform: scale(80);
+        transition: transform .8s;
     }
 
     &__nav {
@@ -37,6 +38,7 @@
         z-index: 1500;
         opacity: 0;
         width: 0;
+        transition: all .8s;
     }
 
     &__list {
