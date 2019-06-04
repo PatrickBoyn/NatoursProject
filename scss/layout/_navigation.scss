@@ -102,7 +102,7 @@
         &::after {
             width: 3rem;
             height: 2px;
-            background-color: $grey-color-dark-2;
+            background-color: $dark-color-2;
             display: inline-block;
         }
 
@@ -113,6 +113,12 @@
             left: 0;
         }
 
+        &::before {
+            top: -1rem;
+        }
 
+        &::after {
+            top: 1rem;
+        }
     }
 }
