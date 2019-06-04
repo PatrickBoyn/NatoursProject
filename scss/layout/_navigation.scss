@@ -102,6 +102,12 @@
             width: 3rem;
             height: 2px;
             background-color: $grey-color-dark-2;
+            display: inline-block;
+        }
+
+        &::before,
+        &::after {
+            content: "";
         }
     }
 }
