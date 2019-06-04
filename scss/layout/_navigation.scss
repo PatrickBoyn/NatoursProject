@@ -14,6 +14,7 @@
         z-index: 10001;
         box-shadow: 0 1rem 3rem rgba($dark-color, .1);
         text-align: center;
+        cursor: pointer;
     }
 
     &__background {
@@ -122,5 +123,13 @@
         &::after {
             top: 1rem;
         }
+    }
+
+    &__button:hover &__icon:before {
+        top: -1rem;
+    }
+
+    &__button:hover &__icon:after {
+        top: 1rem;
     }
 }
