@@ -455,17 +455,16 @@ body {
     filter: blur(3px) brightness(80%); }
 
 .popup {
-  overflow: hidden;
   background-color: blue;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
   .popup__content {
     background-color: red;
     height: 50vh;
-    width: 75vw;
-    margin-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
-    opacity: .8; }
+    width: 82vw;
+    position: absolute;
+    top: 20rem;
+    left: 12rem; }
 
 .header {
   height: 95vh;
