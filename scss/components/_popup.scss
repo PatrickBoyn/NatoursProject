@@ -17,6 +17,8 @@
         visibility: visible;
     }
 
+    &:target &:__content {}
+
     &__close {
 
         &:link,
@@ -44,6 +46,8 @@
         border-radius: 10px;
         display: table;
         overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.5);
     }
 
     &__left {
