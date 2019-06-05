@@ -463,7 +463,9 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 99999999; }
   .popup__content {
-    width: 75%; }
+    width: 75%;
+    height: 50rem;
+    background-color: #fff; }
 
 .header {
   height: 95vh;
