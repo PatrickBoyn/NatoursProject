@@ -15,16 +15,17 @@
         background-color: $light-color;
         box-shadow: 0 2rem 4rem rgba($dark-color, .2);
         border-radius: 10px;
+        display: table;
     }
 
     &__left {
         width: 33.33%;
-        float: left;
+        display: table-cell;
     }
 
     &__right {
         width: 66.67%;
-        float: left;
+        display: table-cell;
     }
 
     &__img {
