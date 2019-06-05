@@ -455,16 +455,12 @@ body {
     filter: blur(3px) brightness(80%); }
 
 .popup {
-  background-color: blue;
   height: 100vh;
-  position: relative; }
-  .popup__content {
-    background-color: red;
-    height: 50vh;
-    width: 82vw;
-    position: absolute;
-    top: 20rem;
-    left: 12rem; }
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .header {
   height: 95vh;
