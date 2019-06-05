@@ -460,7 +460,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99999999; }
+  .popup__content {
+    width: 75%; }
 
 .header {
   height: 95vh;

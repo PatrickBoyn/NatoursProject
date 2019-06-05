@@ -5,6 +5,9 @@
     top: 0;
     left: 0;
     background-color: rgba($dark-color, .8);
+    z-index: 99999999;
 
-    &__content {}
+    &__content {
+        width: 75%;
+    }
 }
