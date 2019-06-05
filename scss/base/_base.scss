@@ -13,7 +13,15 @@ html {
 @include responsive(phone) {
   font-size: 50%;
 }
-
+@include responsive(tab-port) {
+  font-size: 50%;
+}
+@include responsive(tab-land) {
+  font-size: 50%;
+}
+@include responsive(big-desktop) {
+  font-size: 50%;
+}
 /* Header transforms */
 body {
   font-family: "Lato", sans-serif;
