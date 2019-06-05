@@ -41,6 +41,11 @@
         margin-bottom: 4rem;
         column-count: 2;
         column-gap: 4rem;
-        column-rule: 1px solid $dark-color-2
+        column-rule: 1px solid $dark-color-2;
+
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
     }
 }
