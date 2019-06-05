@@ -15,9 +15,13 @@
         border-radius: 10px;
     }
 
-    &__left {}
+    &__left {
+        width: 33.333333%;
+    }
 
-    &__right {}
+    &__right {
+        width: 66.6666667%;
+    }
 
     &__img {
         display: block;
