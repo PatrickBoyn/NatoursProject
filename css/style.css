@@ -454,11 +454,14 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
-.popup__content {
-  font-size: 100px;
-  background-color: red;
-  height: 100vh;
-  width: 100vw; }
+.popup {
+  overflow: hidden; }
+  .popup__content {
+    font-size: 100px;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    opacity: .8; }
 
 .header {
   height: 95vh;
