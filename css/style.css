@@ -1,3 +1,9 @@
+/*
+0 - 600px - Phone
+600 - 900 - Tablet Portrait mode
+900 - 1200 - Tablet Landscape mode
+1800px + : Bigger screens
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
