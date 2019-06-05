@@ -36,3 +36,9 @@
 (1200/1800) - Normal styles
 1800px + : Bigger screens
 */
+
+@mixin respond-phone {
+    @media(max-width: 600px) {
+        @content
+    }
+}
