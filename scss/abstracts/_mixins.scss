@@ -1,31 +1,37 @@
 @mixin clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 @mixin gradient-image($path) {
-    background-image: linear-gradient(to right bottom,
-            rgba($primary-color-light, 0.8),
-            rgba($primary-color-dark, 0.8)),
-        url($path);
-    background-size: cover;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary-color-light, 0.8),
+      rgba($primary-color-dark, 0.8)
+    ),
+    url($path);
+  background-size: cover;
 }
 
 @mixin gradient-text {
-    display: inline-block;
-    background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
-    -webkit-background-clip: text;
-    color: transparent;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $primary-color-light,
+    $primary-color-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @mixin absCenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 // Media queries
@@ -38,12 +44,9 @@
 */
 
 @mixin respond-phone {
-    @media(max-width: 600px) {
-        @content
-    }
-
-    ;
-    // Ignore the weird formatting.
+  @media (max-width: 600px) {
+    @content;
+  }
 }
 
 /*
@@ -54,5 +57,9 @@ $breakpoint argument choices:
 - big-desktop
 */
 @mixin responsive($breakpoint) {
-    @if $breakpoint==phone {}
+  @if $breakpoint==phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
 }
