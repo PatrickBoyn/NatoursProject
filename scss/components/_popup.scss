@@ -17,6 +17,19 @@
         visibility: visible;
     }
 
+    &__close {
+
+        &:link,
+        &:visited {
+            color: $grey-color-dark-2;
+            position: absolute;
+            top: 2.0rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            text-decoration: none;
+        }
+    }
+
     &__content {
         @include absCenter;
 
