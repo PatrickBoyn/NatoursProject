@@ -16,6 +16,7 @@
         box-shadow: 0 2rem 4rem rgba($dark-color, .2);
         border-radius: 10px;
         display: table;
+        overflow: hidden;
     }
 
     &__left {
@@ -27,6 +28,7 @@
         width: 66.67%;
         display: table-cell;
         vertical-align: middle;
+        padding: 3rem 5rem;
     }
 
     &__img {
