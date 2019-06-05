@@ -462,6 +462,9 @@ body {
     background-color: red;
     height: 50vh;
     width: 75vw;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     opacity: .8; }
 
 .header {
