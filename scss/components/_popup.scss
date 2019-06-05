@@ -39,6 +39,12 @@
     &__text {
         font-size: 1.4rem;
         margin-bottom: 4rem;
+
+
+        -moz-column-count: 2;
+        -moz-column-gap: 4rem;
+        -moz-column-rule: 1px solid $dark-color-2;
+
         column-count: 2;
         column-gap: 4rem;
         column-rule: 1px solid $dark-color-2;
