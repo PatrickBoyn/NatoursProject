@@ -1,10 +1,12 @@
 .popup {
     overflow: hidden;
+    background-color: blue;
+    height: 100vh;
 
     &__content {
         background-color: red;
-        height: 100vh;
-        width: 100vw;
+        height: 50vh;
+        width: 75vw;
         opacity: .8;
     }
 }
