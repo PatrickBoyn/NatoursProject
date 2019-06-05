@@ -484,6 +484,9 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
+  .popup__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem; }
 
 .header {
   height: 95vh;
