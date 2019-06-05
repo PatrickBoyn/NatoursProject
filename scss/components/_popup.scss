@@ -1,4 +1,5 @@
 .popup {
+    // Working correctly
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -9,6 +10,7 @@
 
     &__content {
         @include absCenter;
+
         width: 75%;
         background-color: $light-color;
         box-shadow: 0 2rem 4rem rgba($dark-color, .2);
@@ -16,11 +18,13 @@
     }
 
     &__left {
-        width: 33.333333%;
+        width: 33.33%;
+        float: left;
     }
 
     &__right {
-        width: 66.6666667%;
+        width: 66.67%;
+        float: left;
     }
 
     &__img {
