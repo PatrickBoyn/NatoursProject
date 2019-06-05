@@ -457,7 +457,6 @@ body {
 .popup {
   overflow: hidden; }
   .popup__content {
-    font-size: 100px;
     background-color: red;
     height: 100vh;
     width: 100vw;
