@@ -53,4 +53,6 @@ $breakpoint argument choices:
 - tab-land
 - big-desktop
 */
-@mixin responsive($breakpoint) {}
+@mixin responsive($breakpoint) {
+    @if $breakpoint==phone {}
+}
