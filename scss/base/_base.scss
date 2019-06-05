@@ -9,14 +9,16 @@
 html {
   font-size: 62.5%;
 
-  @include responsive(tab-port) {
-    //1 rem = 8px 8/16 = 50%
-    font-size: 50%;
-  }
   @include responsive(tab-land) {
     // 1 rem = 9px 9/16 = 56.25%
     font-size: 56.25%;
   }
+
+  @include responsive(tab-port) {
+    //1 rem = 8px 8/16 = 50%
+    font-size: 50%;
+  }
+
   @include responsive(big-desktop) {
     // 1 rem = 12px 12/16 = 0.75%
     font-size: 75%;
