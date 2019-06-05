@@ -41,4 +41,16 @@
     @media(max-width: 600px) {
         @content
     }
+
+    ;
+    // Ignore the weird formatting.
 }
+
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+@mixin responsive($breakpoint) {}
