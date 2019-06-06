@@ -80,6 +80,10 @@ body {
     font-weight: 400;
     letter-spacing: 3.5rem;
     animation: moveInLeft 1s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        letter-spacing: 1;
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -96,7 +100,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all .2s; }
+  transition: all 0.2s; }
   .secondary-heading:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
