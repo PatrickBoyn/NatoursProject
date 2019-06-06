@@ -20,6 +20,10 @@
       top: 4rem;
       right: 4rem;
     }
+    @include responsive(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
   }
 
   &__background {
@@ -38,6 +42,11 @@
     @include responsive(tab-port) {
       top: 4.5rem;
       right: 4.5rem;
+    }
+
+    @include responsive(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
     }
   }
 
