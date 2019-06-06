@@ -4,6 +4,9 @@
 
   &:not(:last-child) {
     margin-bottom: $vertical-gutter;
+    @include responsive(tab-port) {
+      margin-right: $vertical-gutter-small;
+    }
   }
 
   @include clearfix;
