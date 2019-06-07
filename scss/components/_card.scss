@@ -183,7 +183,7 @@
     font-size: 6rem;
     font-weight: 100;
   }
-  // Media Query
+  // Media Query for smaller screens
   @include responsive(tab-port) {
     height: auto;
 
@@ -194,15 +194,11 @@
       box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: 0.15);
 
       &--back {
-        transform: rotateY(180deg);
+        transform: rotateY(0);
       }
     }
 
     &:hover &__side--front {
-      transform: rotateY(-180deg);
-    }
-
-    &:hover &__side--back {
       transform: rotateY(0);
     }
 
