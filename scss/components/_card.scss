@@ -202,58 +202,6 @@
       transform: rotateY(0);
     }
 
-    // Front styling
-    &__picture {
-      background-size: cover;
-      height: 23rem;
-
-      background-blend-mode: screen;
-
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-
-      &--1 {
-        background-image: linear-gradient(
-            to right bottom,
-            $secondary-color-light,
-            $secondary-color-dark
-          ),
-          url("../img/nat-5.jpg");
-      }
-
-      &--2 {
-        background-image: linear-gradient(
-            to right bottom,
-            $primary-color-light,
-            $primary-color-dark
-          ),
-          url("../img/nat-6.jpg");
-      }
-
-      &--3 {
-        background-image: linear-gradient(
-            to right bottom,
-            $third-color-light,
-            $third-color-dark
-          ),
-          url("../img/nat-7.jpg");
-      }
-    }
-
-    &__heading {
-      font-size: 2.8rem;
-      font-weight: 300;
-      text-transform: uppercase;
-      text-align: right;
-      color: $light-color;
-      position: absolute;
-      top: 12rem;
-      right: 2rem;
-      width: 65%;
-    }
-
     &__span-heading {
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
@@ -280,26 +228,6 @@
           rgba($third-color-light, 0.85),
           rgba($third-color-dark, 0.85)
         );
-      }
-    }
-
-    &__details {
-      padding: 3rem;
-
-      ul {
-        list-style: none;
-        width: 80%;
-        margin: 0 auto;
-
-        li {
-          text-align: center;
-          font-size: 1.5rem;
-          padding: 1rem;
-
-          &:not(:last-child) {
-            border-bottom: 1px solid $grey-color-dark;
-          }
-        }
       }
     }
 
