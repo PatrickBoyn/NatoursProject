@@ -355,18 +355,11 @@ body {
         top: 0;
         left: 0;
         transform: translate(0);
-        width: 100%;
-        text-align: center; }
+        width: 100%; }
       .card__price-box {
-        text-align: center;
-        color: #fff;
         margin-bottom: 8rem; }
-      .card__only-price {
-        font-size: 1.74rem;
-        text-transform: uppercase; }
       .card__price-value {
-        font-size: 6rem;
-        font-weight: 100; } }
+        font-size: 6rem; } }
 
 .composition {
   position: relative; }

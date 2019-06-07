@@ -183,7 +183,7 @@
     font-size: 6rem;
     font-weight: 100;
   }
-  // Media Query for smaller screens
+  // New layout for smaller screens and the cards
   @include responsive(tab-port) {
     height: auto;
 
@@ -238,23 +238,14 @@
       left: 0;
       transform: translate(0);
       width: 100%;
-      text-align: center;
     }
 
     &__price-box {
-      text-align: center;
-      color: $light-color;
       margin-bottom: 8rem;
-    }
-
-    &__only-price {
-      font-size: 1.74rem;
-      text-transform: uppercase;
     }
 
     &__price-value {
       font-size: 6rem;
-      font-weight: 100;
     }
   }
 }
