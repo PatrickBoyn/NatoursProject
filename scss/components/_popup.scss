@@ -41,6 +41,12 @@
       font-size: 3rem;
       text-decoration: none;
       display: inline-block;
+
+      @include responsive(phone) {
+        font-size: 5rem;
+        top: 1.5rem;
+        right: 1.5rem;
+      }
     }
 
     &:hover {
