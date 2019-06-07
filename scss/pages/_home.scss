@@ -62,8 +62,7 @@
     ),
     url("../img/nat-10.jpg");
   background-size: cover;
-  // For testing purposes
-  height: 50rem;
+
   border-radius: 10px;
   box-shadow: 0 1.5rem 4rem rgba($dark-color, 0.2);
 
@@ -72,7 +71,7 @@
         105deg,
         rgba($light-color, 0.9) 0%,
         rgba($light-color, 0.9) 70%,
-        transparent 50%
+        transparent 70%
       ),
       url("../img/nat-10.jpg");
   }
@@ -80,5 +79,9 @@
   &__form {
     width: 50%;
     padding: 6rem;
+
+    @include responsive(tab-land) {
+      width: 70%;
+    }
   }
 }
