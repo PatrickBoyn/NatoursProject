@@ -9,12 +9,17 @@
   color: $dark-color;
   font-size: $default-font-size;
   transform: skewX(-12deg);
-  // TODO find out what is causing the story to not look right
+
   @include responsive(tab-port) {
     width: 100%;
     padding: 4rem;
     padding-left: 7rem;
   }
+
+  @include responsive(phone) {
+    transform: translateX(-3rem) skew(0);
+  }
+
   & > * {
     transform: skewX(12deg);
   }
@@ -40,6 +45,10 @@
 
   &__text {
     transform: skewX(12deg);
+
+    @include responsive(phone) {
+      transform: skew(0);
+    }
   }
 
   &__caption {
