@@ -331,11 +331,12 @@ body {
     font-weight: 100; }
   @media (max-width: 56.25em) {
     .card {
-      height: auto; }
+      height: auto;
+      border-radius: 10px;
+      background-color: #fff; }
       .card__side {
         height: auto;
         position: relative;
-        border-radius: 10px;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
         .card__side--back {
           transform: rotateY(0);

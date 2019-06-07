@@ -186,11 +186,12 @@
   // New layout for smaller screens and the cards
   @include responsive(tab-port) {
     height: auto;
+    border-radius: 10px;
+    background-color: $light-color;
 
     &__side {
       height: auto;
       position: relative;
-      border-radius: 10px;
       box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: 0.15);
 
       &--back {
