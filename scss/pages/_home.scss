@@ -48,6 +48,9 @@
     $primary-color-light,
     $primary-color-dark
   );
+  @include responsive(tab-port) {
+    padding: 10rem 0;
+  }
 }
 
 .book {
