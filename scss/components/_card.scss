@@ -188,11 +188,12 @@
     height: auto;
     border-radius: 10px;
     background-color: $light-color;
+    box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: 0.15);
 
     &__side {
       height: auto;
       position: relative;
-      box-shadow: 0 1.5rem 4rem rgba($color: $dark-color, $alpha: 0.15);
+      box-shadow: none;
 
       &--back {
         transform: rotateY(0);
@@ -240,7 +241,7 @@
       left: 0;
       transform: translate(0);
       width: 100%;
-      padding: 4rem;
+      padding: 7rem 4rem 4rem 4rem;
     }
 
     &__price-box {
