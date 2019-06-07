@@ -93,5 +93,9 @@
     @include responsive(tab-land) {
       width: 70%;
     }
+
+    @include responsive(tab-port) {
+      width: 100%;
+    }
   }
 }
