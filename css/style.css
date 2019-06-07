@@ -334,12 +334,7 @@ body {
       height: auto; }
       .card__side {
         height: auto;
-        transition: all 0.8s ease;
         position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        backface-visibility: hidden;
         border-radius: 10px;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         overflow: hidden; }
