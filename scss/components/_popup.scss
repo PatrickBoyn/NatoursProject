@@ -65,6 +65,9 @@
   &__left {
     width: 33.33%;
     display: table-cell;
+    @include responsive(phone) {
+      display: none;
+    }
   }
 
   &__right {
