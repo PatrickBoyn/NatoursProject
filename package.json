@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "scss": "node-sass scss/main.scss css/style.css -w",
-    "compile:scss": "node-sass scss/main.scss css/style.comp.css"
+    "compile:scss": "node-sass scss/main.scss css/style.comp.css",
+    "concat:scss": ""
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/PatrickBoyn/CSSAdvanced#readme",
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^4.12.0"
   }
 }
