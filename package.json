@@ -7,7 +7,8 @@
     "scss": "node-sass scss/main.scss css/style.css -w",
     "compile:scss": "node-sass scss/main.scss css/style.comp.css",
     "concat:scss": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
-    "prefix:scss": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.cssc"
+    "prefix:scss": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed"
   },
   "repository": {
     "type": "git",
