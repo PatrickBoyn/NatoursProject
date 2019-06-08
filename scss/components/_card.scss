@@ -185,7 +185,7 @@
     font-weight: 100;
   }
   // New layout for smaller screens and the cards
-  @include responsive(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hove: none) {
     height: auto;
     border-radius: 10px;
     background-color: $light-color;
